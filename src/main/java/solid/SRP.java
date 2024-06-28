@@ -1,5 +1,5 @@
-/*
- * SRP - Single Responsibility Principle
+package solid;/*
+ * solid.SRP - Single Responsibility Principle
  * A class should have only one reason to change, meaning that a class should have
  * only one job or responsibility.
  * Essentially, maintain a separation of concerns
@@ -86,7 +86,7 @@ class SRP {
 
 //        j.addEntry("Testing the persistence here");
 //        j.save("journal.txt");
-//        j2 = new Persistence().load("journal.txt");
+//        j2 = new solid.Persistence().load("journal.txt");
 //        System.out.println(j2);
 
         Journal j3 = new Journal();
