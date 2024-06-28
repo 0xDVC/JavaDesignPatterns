@@ -1,5 +1,6 @@
-package solid;/*
- * solid.SRP - Single Responsibility Principle
+package solid;
+/*
+ * SRP - Single Responsibility Principle
  * A class should have only one reason to change, meaning that a class should have
  * only one job or responsibility.
  * Essentially, maintain a separation of concerns
