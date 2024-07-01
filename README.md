@@ -31,11 +31,15 @@ Design pattern, essentially is a general reusable solution to a commonly occurri
 ## Repository Structure
 The repository is structured in the following way:
 ```tree
-├── pom.xml
 ├── src
-│   ├── main
-│   │   ├── java
-│   │   │   └── solid
-│   │   │       ├── OCP.java
-│   │   │       └── SRP.java
+    ├── main
+        ├── java
+            ├── practice
+            ├    └── solid
+            ├        ├── Calculator.java
+            ├        ├── Operation.java
+            ├        └── Runner.java
+            └── solid
+                ├── OCP.java
+                └── SRP.java
 ```
